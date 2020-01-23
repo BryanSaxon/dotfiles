@@ -1,0 +1,12 @@
+# Executable Aliases
+alias gtop="gotop -c solarized -p"
+alias jn="jupyter notebook"
+alias pip="/usr/local/bin/pip3"
+alias python="/usr/local/bin/python3"
+alias vim="nvim"
+
+# Include custom aliases
+if [[ -f ~/.aliases.local ]]; then
+  source ~/.aliases.local
+fi
+
