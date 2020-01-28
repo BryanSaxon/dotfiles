@@ -4,6 +4,7 @@ alias jn="jupyter notebook"
 alias pip="/usr/local/bin/pip3"
 alias python="/usr/local/bin/python3"
 alias vim="nvim"
+alias vimrc="vim ~/.config/nvim/init.vim"
 
 # Include custom aliases
 if [[ -f ~/.aliases.local ]]; then
